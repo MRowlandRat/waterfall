@@ -22,7 +22,8 @@ namespace waterfallPro
         //date notetaker
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
-
+            Form3 newMDI = new Form3();
+            newMDI.Show();
         }
 
         //word scrambler
