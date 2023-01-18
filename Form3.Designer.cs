@@ -1,6 +1,6 @@
 ﻿namespace waterfallPro
 {
-    partial class Form1
+    partial class Form3
     {
         /// <summary>
         ///  Required designer variable.

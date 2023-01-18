@@ -6,12 +6,12 @@ using System.Windows.Forms;
 
 namespace waterfallPro
 {
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
 
         string message;
 
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
         }
