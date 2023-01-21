@@ -20,24 +20,32 @@ namespace waterfallPro
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            string scramble = word_box.Text.ToUpper();
+            string scramble = word_box.Text;
 
-            switch (checkedListBox1.Text)
+            string input = checkedListBox1.Text;
+
+            switch (input)
             {
+                
                 case "Uppercase":
-                    word_box.Text = checkedListBox1.Text;
+                    word_box.Text = scramble.ToUpper();
                     break;
 
                 case "Lowercase":
-                    
+                    word_box.Text = scramble.ToLower();
                     break;
-                
+
                 case "Reverse":
-                    
+                    char[] scrambleArray = scramble.ToCharArray();
+                    Array.Reverse(scrambleArray);
+                    word_box.Text = new string(scrambleArray); 
                     break;
-                
-                case "Camelcase":
-                    
+
+                case "Duplicate":
+
+                    scramble = scramble + scramble;
+
+                    word_box.Text = scramble;
                     break;
             }
         }

@@ -37,10 +37,10 @@
             this.checkedListBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
-            "Uppercase ",
-            "Lowercase ",
+            "Uppercase",
+            "Lowercase",
             "Reverse",
-            "Camelcase"});
+            "Duplicate"});
             this.checkedListBox1.Location = new System.Drawing.Point(0, 0);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(800, 450);
