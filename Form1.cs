@@ -16,7 +16,8 @@ namespace waterfallPro
         //button game
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-
+            Form4 newMDI = new Form4();
+            newMDI.Show();
         }
 
         //date notetaker
