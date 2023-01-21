@@ -54,11 +54,20 @@
             this.label2.Text = "label2";
             this.label2.VisibleChanged += new System.EventHandler(this.label2_VisibleChanged);
             // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(371, 278);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(148, 71);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Click me to start";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1389, 740);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
