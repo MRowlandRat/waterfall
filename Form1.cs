@@ -10,7 +10,8 @@ namespace waterfallPro
         //temerature convertor
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-           
+            Form5 newMDI = new Form5();
+            newMDI.Show();
         }
 
         //button game
